@@ -1,0 +1,73 @@
+.toolSlider-container {
+    width: 65%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    margin-top: 1rem;
+    height: 60px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    );
+  }
+  
+  @keyframes scrollRight {
+    to {
+      left: calc(100% + 200px);
+    }
+  }
+  
+  .toolItem {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: -50px;
+    animation-name: scrollRight;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .toolItem1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+  
+  .toolItem2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+  
+  .toolItem3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+  
+  .toolItem4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+  
+  .toolItem5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+  
+  .toolItem6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+  
+  .toolItem7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+  
+  .toolItem8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+  
+  .toolSlider-container:hover .toolItem {
+    animation-play-state: paused !important;
+  }
+  
+  .toolSlider-container .toolItem:hover {
+    filter: brightness(3);
+  }

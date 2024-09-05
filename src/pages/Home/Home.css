@@ -1,0 +1,15 @@
+.homePage-container {
+  height: 100vh;
+  width: 100%;
+  /* width: 80%; */
+  display: grid;
+
+  grid-template-areas:
+    "hero"
+    "techSlider"
+    "toolSlider"
+    "experience"
+    "projects";
+    grid-template-rows: auto 1fr auto;
+    /* margin: 0 auto; */
+}
