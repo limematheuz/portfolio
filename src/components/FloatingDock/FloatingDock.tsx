@@ -36,14 +36,14 @@ export default function FloatingDock() {
           <span className="tooltip">About me</span>
         </a>
       </li>
-      <hr />
-      <li className="dock-navigation" >
+      {/* <hr /> */}
+      <li className="dock-navigation controls" >
         <a href="" target="_blank">
           <img src={volume} />
           <span className="tooltip">Sound</span>
         </a>
       </li>
-      <li className="dock-navigation" >
+      <li className="dock-navigation controls" >
         <a href="" target="_blank">
           <img src={moon} />
           <span className="tooltip">Ligths</span>
