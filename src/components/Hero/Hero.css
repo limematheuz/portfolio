@@ -28,8 +28,10 @@
 }
 
 .animated-text {
-  width: 460px;
+  width: 80%;
   overflow: hidden;
+  /* border: 1px solid var(--border-color); */
+
 }
 
 .animated-text .text {
@@ -117,27 +119,27 @@
 
   .hero-content h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.6rem;
     width: 100%;
+    /* border: 1px solid #7b00ff; */
   }
 
   .animated-text {
-    width: 90%;
+    width: 94%;
     overflow: hidden;
+    /* border: 1px solid #7b00ff; */
   }
   
   .animated-text .text {
     position: relative;
     color: #7b00ff;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
   }
   
   .animated-text .text.first-text{
     color: #FFF;
   } 
-  
-  
 
   .hero-content p {
     width: 80%;
