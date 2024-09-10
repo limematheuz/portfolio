@@ -117,7 +117,7 @@
   opacity: 0;
   transition: ease-in opacity 100ms;
   display: block;
-  background: rgba(0, 0, 0, 0.58);
+  background: rgba(16, 16, 16, 0.58);
   padding: 8px;
   border-radius: 8px;
   height: 40px;
@@ -128,17 +128,17 @@
 
 @media screen and (max-width: 768px) {
   .dock {
-    padding: 0 6px;
+    padding: 0 8px;
   }
 
   .dock-navigation {
     width: 50px;
-    height: 40px;
+    height: 50px;
   }
 
   .dock-navigation:hover {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-top: -20px;
     behavior: smooth;
     transition: 0.3s ease;
@@ -147,16 +147,16 @@
 
   /* Right side */
   .dock-navigation:hover + .dock-navigation {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin-top: -20px;
     behavior: smooth;
     transition: 0.3s ease;
   }
 
   .dock-navigation:hover + .dock-navigation + .dock-navigation {
-    width: 50px;
-    height: 50px;
+    width: 52.5px;
+    height: 52.5px;
     margin-top: -10px;
     behavior: smooth;
     transition: 0.3s ease;
@@ -164,16 +164,16 @@
 
   /* Left side */
   .dock-navigation:has(+ .dock-navigation:hover) {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin-top: -20px;
     behavior: smooth;
     transition: 0.3s ease;
   }
 
   .dock-navigation:has(+ .dock-navigation + .dock-navigation:hover) {
-    width: 50px;
-    height: 50px;
+    width: 52.5px;
+    height: 52.5px;
     margin-top: -10px;
     behavior: smooth;
     transition: 0.3s ease;
@@ -181,12 +181,6 @@
 
   .dock-navigation img {
     padding: 4px;
-  }
-
-  .dock hr {
-    height: 30px;
-    width: 2px;
-    margin: 0 4px;
   }
 
   .tooltip {
