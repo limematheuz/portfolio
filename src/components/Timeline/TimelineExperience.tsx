@@ -7,7 +7,7 @@ import {Timeline } from "flowbite-react";
 
 export function TimelineExperience() {
   return (
-    <section className="timeline-experience-container">
+    <section id="timeLine-container" className="timeline-experience-container">
       <h2>Experience</h2>
     <Timeline className="timeline-experience-content">
       <Timeline.Item className="timeline-info">

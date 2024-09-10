@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    /* border: 1px solid #ccc; */
 }
 
 .timeline-experience-content{
@@ -23,7 +22,7 @@
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 0 0 1rem 0;
     padding-bottom: 4rem;
 
 }
@@ -41,12 +40,13 @@
 
 .timeline-content:hover{
     background-color: #22222247;
-    z-index: -10;
+ 
 }
 
 .timeline-date{
-    font-size: 1rem !important;
+    font-size: 1rem!important;
     font-weight: 500;
+    padding-left: 0.4rem;
     color: #9c9c9c !important;
 }
 
