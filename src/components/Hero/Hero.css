@@ -31,21 +31,20 @@
   width: 80%;
   overflow: hidden;
   /* border: 1px solid var(--border-color); */
-
 }
 
 .animated-text .text {
   position: relative;
-  color:  #adfa1d;
+  color: #adfa1d;
   font-size: 2rem;
   font-weight: 400;
 }
 
-.animated-text .text.first-text{
+.animated-text .text.first-text {
   color: #fff;
-} 
+}
 
-.text.sec-text:before{
+.text.sec-text:before {
   content: "";
   position: absolute;
   top: 0;
@@ -53,25 +52,24 @@
   height: 100%;
   width: 100%;
   background-color: #000000;
-  border-left: 2px solid  #adfa1d;
+  border-left: 2px solid #adfa1d;
   animation: animate 4s steps(14) infinite;
 }
 
-@keyframes animate{
-  40%, 60%{
-      left: calc(100% + 4px);
+@keyframes animate {
+  40%,
+  60% {
+    left: calc(100% + 4px);
   }
-  100%{
-      left: 0%;
+  100% {
+    left: 0%;
   }
 }
 
-
 .hero-content p {
   width: 70%;
-  font-size: 1.2rem;
+  font-size: var(--font-size-p);
   font-weight: 400;
-  color: var(--color-font-white);
 }
 
 .hero-buttons {
@@ -83,8 +81,8 @@
 
 .hero-buttons :first-child {
   padding: 6px 16px;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: var(--font-size-p);
+  font-weight: 600;
   color: var(--color-font-black);
   background-color: var(--color-white-button);
   border: none;
@@ -98,7 +96,7 @@
 
 .hero-buttons :last-child {
   padding: 6px 16px;
-  font-size: 1.2rem;
+  font-size: var(--font-size-p);
   font-weight: 500;
   color: var(--color-font-white);
   background-color: var(--color-black-bg);
@@ -116,7 +114,7 @@
   box-shadow: inset 200px 0 0 0 #adfa1d;
 }
 
-.hero-buttons :last-child:hover{
+.hero-buttons :last-child:hover {
   /* transform: scale(1.03); */
   box-shadow: inset 200px 0 0 0 #adfa1d;
   color: #000000;
@@ -126,33 +124,33 @@
 @media screen and (max-width: 768px) {
   .hero-content {
     height: 70%;
-    width: 90%;
+    width: 100%;
     align-items: center;
     gap: 4rem;
   }
 
   .hero-content h1 {
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     width: 100%;
-    /* border: 1px solid #7b00ff; */
+    margin: -40px 0;
   }
 
   .animated-text {
-    width: 94%;
+    width: 90%;
+    padding: 0 10px;
     overflow: hidden;
-    /* border: 1px solid #7b00ff; */
   }
-  
+
   .animated-text .text {
     position: relative;
     font-size: 1.4rem;
     font-weight: 400;
   }
-  
-  .animated-text .text.first-text{
-    color: #FFF;
-  } 
+
+  .animated-text .text.first-text {
+    color: #fff;
+  }
 
   .hero-content p {
     width: 80%;
@@ -164,11 +162,7 @@
     gap: 0.5rem;
   }
 
-  .hero-buttons :first-child {
-    padding: 6px 12px;
-    font-size: 1rem;
-  }
-
+  .hero-buttons :first-child,
   .hero-buttons :last-child {
     padding: 6px 12px;
     font-size: 1rem;

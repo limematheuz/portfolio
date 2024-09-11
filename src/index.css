@@ -41,7 +41,7 @@ html,
   color-scheme: dark light;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.87) !important;
   background-color: var(--color-black-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,16 +57,21 @@ html,
 
   /* borders */
   --border-radius: 4px;
-  --border-width: 1px;
-  --border-color: #ffffff;
 
-  /* font-size: ; */
+  /* Desktop font-size */
+  --font-size-xxsmall: 0.8rem;
   --font-size-small: 1rem;
-  --font-size-medium: 1.5rem;
-  --font-size-large: 2rem;
+  --font-size-p: 1.2rem;
+  --font-h2: 2rem;
   --font-size-xlarge: 3rem;
   --font-size-xxlarge: 4rem;
   --font-size-xxxlarge: 5rem;
+
+  /* Mobile font-size */
+  --font-size-xxsmall-mobile: 0.8rem;
+  --font-size-small-mobile: 0.9rem;
+  --font-size-p-mobile: 1.2rem;
+  --font-h2-mobile: 2rem;
 }
 
 :root.dark {
