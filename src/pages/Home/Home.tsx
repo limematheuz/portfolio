@@ -1,10 +1,11 @@
 // import Experience from "../../components/Experience/Experience";
-import FloatingDock from "../../components/FloatingDock/FloatingDock";
 import Hero from "../../components/Hero/Hero";
-import TechSlider from "../../components/TechSlider/TechSlider";
-import { TimelineExperience } from "../../components/Timeline/TimelineExperience";
+import FloatingDock from "../../components/FloatingDock/FloatingDock";
 import { ToolSlider } from "../../components/ToolSlider/ToolSlider";
+import TechSlider from "../../components/TechSlider/TechSlider";
+import { TimelineExperience } from "../../components/TimelineExperience/TimelineExperience";
 import "./Home.css";
+import Projects from "../../components/ProjectsBento/ProjectsBento";
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <ToolSlider />
       <FloatingDock />
       <TimelineExperience />
-      {/* <Experience /> */}
+      <Projects />
     </section>
   );
 }

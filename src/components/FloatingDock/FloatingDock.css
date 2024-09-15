@@ -100,6 +100,10 @@
   border-radius: 8px;
 }
 
+.dock-navigation .svg-icon:hover {
+  stroke: #ff0000; /* Cambia este color al que desees */
+}
+
 .dock-navigation.controls{
   filter: brightness(1.8);
 }
