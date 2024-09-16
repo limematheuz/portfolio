@@ -1,6 +1,6 @@
 import "./ProjectsBento.css";
 
-import tablet from "../../assets/img/8.png";
+import tablet from "../../assets/img/4.png";
 
 export default function ProjectsBento(){
     return (

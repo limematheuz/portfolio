@@ -35,7 +35,7 @@
 
 .animated-text .text {
   position: relative;
-  color: #adfa1d;
+  color: var(--green-color);
   font-size: 2rem;
   font-weight: 400;
 }
@@ -52,7 +52,7 @@
   height: 100%;
   width: 100%;
   background-color: #000000;
-  border-left: 2px solid #adfa1d;
+  border-left: 2px solid var(--green-color);
   animation: animate 4s steps(14) infinite;
 }
 
