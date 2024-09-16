@@ -2,7 +2,6 @@ import "./FloatingDock.css";
 
 import house from "../../assets/icon/house.svg";
 import exp from "../../assets/icon/folder-git-2.svg";
-// import projects from "../../assets/icon/code.svg";
 import guitar from "../../assets/icon/guitar.svg";
 import volume from "../../assets/icon/volume-2.svg";
 import moon from "../../assets/icon/sun-moon.svg";
