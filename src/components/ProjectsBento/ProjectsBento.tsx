@@ -31,25 +31,3 @@ export default function ProjectsBento(){
         </section>
     );
 };
-
-{/* <section className="projectsBento-container">
-<div className="bento-col-left">
-  <div className="bentoImg-container">
-    <img src="imagen1.jpg" alt="Imagen 1" />
-  </div>
-  <div className="bentoImg-container">
-    <img src="imagen2.jpg" alt="Imagen 2" />
-  </div>
-</div>
-<div className="bento-col-right">
-  <div className="bentoImg-container">
-    <img src="imagen4.jpg" alt="Imagen 4" />
-  </div>
-  <div className="bentoImg-container">
-    <img src="imagen5.jpg" alt="Imagen 5" />
-  </div>
-  <div className="bentoImg-container">
-    <img src="imagen6.jpg" alt="Imagen 6" />
-  </div>
-</div>
-</section> */}

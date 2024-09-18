@@ -40,7 +40,7 @@ export default function Hero() {
         </p>
         <div className="hero-buttons">
           <a
-            href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:655f4a2e-f991-4309-a430-3da0f33aa4ce"
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e15522e2-dece-4f45-80f4-60f54b1d7ee8"
             target="_blank"
             rel="noopener noreferrer"
           >

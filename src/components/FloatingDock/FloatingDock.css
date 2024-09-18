@@ -58,7 +58,7 @@
   border-radius: 8px;
   padding: 0 12px;
   display: flex;
-  box-shadow: var(--color-secondary) 0px 0px 0px 2px inset;
+  box-shadow: var(--dark-grey-color) 0px 0px 0px 2px inset;
   backdrop-filter: blur(12px);
   background-color: #2222227b;
 }

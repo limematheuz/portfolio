@@ -84,7 +84,7 @@
   font-size: var(--font-size-p);
   font-weight: 600;
   color: var(--color-font-black);
-  background-color: var(--color-white-button);
+  background-color: var(--white-color);
   border: none;
   border-radius: var(--border-radius);
   cursor: pointer;

@@ -25,7 +25,7 @@ html,
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--color-secondary);
+  background-color: var(--dark-grey-color);
   border-radius: 10px;
 }
 
@@ -50,13 +50,14 @@ html,
   --green-color: #0bce5f;
   --color-black-bg: #000000;
   --color-ligth-bg: #9b9a9a;
-  --color-black-bg: #000000;
+  --dark-white-color: rgba(255, 255, 255, 0.842);
+  --white-color: #ffffff;
+  --dark-grey-color: #222222;
+  --color-accent: #0bce5f;
+
+  /*font-colors */
   --color-font-black: #000000;
   --color-font-white: #ffffff;
-  --color-secondary: #222222;
-  --color-white-button: #ffffff;
-  --icons-color: #555555;
-
   /* borders */
   --border-radius: 4px;
 
@@ -79,7 +80,7 @@ html,
 :root.dark {
   --color-black-bg: #000000;
   --color-font: #ffffff;
-  --color-secondary: #222222;
+  --dark-grey-color: #222222;
 }
 
 :root.light {
