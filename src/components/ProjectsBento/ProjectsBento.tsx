@@ -12,6 +12,7 @@ import remodeling from "../../assets/img/6.png";
 export default function ProjectsBento(){
     return (
         <section className="projectsBento-container">
+            {/* <h2 >Projects</h2> */}
                 <a href="https://pedrosremodelingnc.com/" target="_blank" rel="noopener noreferrer" className="bento-item item1">
                     <img className="small-img bento-img" src={tablet} alt="Imagen 1" />
                     <span></span>
@@ -36,7 +37,7 @@ export default function ProjectsBento(){
                     <img className="small-img bento-img" src={rrj} alt="Imagen 6" />
                     <span></span>
                 </a >
-                <a href="https://pedrosremodelingnc.com/" target="_blank" rel="noopener noreferrer" className="bento-item item7">
+                <a href="https://light-eyes-client.vercel.app/" target="_blank" rel="noopener noreferrer" className="bento-item item7">
                     <img className="big-img bento-img" src={remodeling} alt="Imagen 7" />
                     <span></span>
                 </a >
