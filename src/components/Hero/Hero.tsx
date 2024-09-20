@@ -8,7 +8,8 @@ export default function Hero() {
     const textLoad = () => {
       if (textRef.current) {
         setTimeout(() => {
-          if (textRef.current) textRef.current.textContent = "Full Stack Developer";
+          if (textRef.current)
+            textRef.current.textContent = "Full Stack Developer";
         }, 0);
         setTimeout(() => {
           if (textRef.current) textRef.current.textContent = "Musician";
@@ -22,7 +23,7 @@ export default function Hero() {
     textLoad();
     const intervalId = setInterval(textLoad, 12000);
 
-    return () => clearInterval(intervalId); 
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
@@ -34,9 +35,13 @@ export default function Hero() {
           <span className="text sec-text" ref={textRef}></span>
         </div>
         <p className="hero-subtitle">
-          I'm a software engineer, with a focus on web development and
-          JavaScript. I'm passionate about technology and I love to learn new
-          things.
+          Soy un desarrollador apasionado por nuevos retos, siempre buscando
+          aprender y crecer profesionalmente. Me considero polivalente,
+          ambicioso y proactivo.
+        </p>
+        <p>
+          Valoro la colaboración en equipo y me gusta escuchar diferentes
+          perspectivas para encontrar soluciones creativas y efectivas.
         </p>
         <div className="hero-buttons">
           <a
