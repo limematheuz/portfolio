@@ -6,7 +6,7 @@ import rrjTablet from "../../assets/img/9.png";
 import pedro from "../../assets/img/2.png";
 // import phone from "../../assets/img/5.png";
 import rrj from "../../assets/img/10.png";
-import remodeling from "../../assets/img/12.png";
+import remodeling from "../../assets/img/6.png";
 
 
 export default function ProjectsBento(){
