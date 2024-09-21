@@ -49,7 +49,7 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download CV
+            See resume
           </a>
           <a
             href="https://www.linkedin.com/in/matheus-ribeiro-lima/"

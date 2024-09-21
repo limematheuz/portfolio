@@ -1,7 +1,7 @@
 .projectsBento-container {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
@@ -11,7 +11,7 @@
   margin-top: 5%;
   gap: 0.6rem;
   width: 100%;
-  max-height: 1000px;
+  max-height: 900px;
 }
 
 .bento-item {
@@ -22,6 +22,7 @@
   border: 2px solid rgb(31, 31, 31);
   position: relative;
   overflow: hidden;
+  background-color: #25252544;
 }
 
 /* .bento-item:hover {
@@ -40,17 +41,6 @@
   z-index: -1; 
   transition: ease-out 0.9s;
 }
-
-/* .bento-item:hover span {
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-  transition: ease-out 0.9s;
-} */
-
 
 .bento-item:hover span {
   height: 100%;
