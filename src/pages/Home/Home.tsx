@@ -6,6 +6,7 @@ import TechSlider from "../../components/TechSlider/TechSlider";
 import { TimelineExperience } from "../../components/TimelineExperience/TimelineExperience";
 import "./Home.css";
 import Projects from "../../components/ProjectsBento/ProjectsBento";
+import DevelopmentModal from "../../components/DevelopmentModal/DevelopmentModal";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <FloatingDock />
       <TimelineExperience />
       <Projects />
+      <DevelopmentModal />
     </section>
   );
 }
