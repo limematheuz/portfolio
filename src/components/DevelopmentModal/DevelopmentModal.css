@@ -17,10 +17,11 @@
     align-items: center;
     justify-content: center;
     background-color: #0000005e;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(120, 120, 120, 0.719);
     border: 2px solid #fff;
+    gap: 0.5rem;
 }
 
 .development-info h2{
@@ -40,4 +41,16 @@
     color: #fff;
     font-size: 1rem;
     margin-bottom: 1rem;
+}
+
+.development-info button{
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+    font-weight: 500;
 }
