@@ -25,7 +25,7 @@ export default function FloatingDock() {
         </a>
       </li>
       <li className="dock-navigation controls" >
-        <a href="#" >
+        <a href="#bentoProjects" >
           <img src={layer} />
           <span className="tooltip">Projects</span>
         </a>
@@ -36,7 +36,6 @@ export default function FloatingDock() {
           <span className="tooltip">About me</span>
         </a>
       </li>
-      {/* <hr /> */}
       <li className="dock-navigation controls" >
         <a href="#" >
           <img src={volume} />

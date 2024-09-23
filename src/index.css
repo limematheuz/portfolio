@@ -37,7 +37,6 @@ html,
   /* font-family: 'Fira Code', sans-serif; */
   /* font-family: "Source Code Pro", sans-serif; */
   font-family: "M PLUS 1 Code", sans-serif;
-
   color-scheme: dark light;
   line-height: 1.5;
   font-weight: 400;
@@ -47,7 +46,7 @@ html,
   text-rendering: optimizeLegibility;
 
   /* colors */
-  --green-color: #0bce5f;
+  --green-color: #00e770;
   --color-black-bg: #000000;
   --color-ligth-bg: #9b9a9a;
   --dark-white-color: rgba(255, 255, 255, 0.842);
@@ -57,20 +56,24 @@ html,
   /*font-colors */
   --color-font-black: #000000;
   --color-font-white: #ffffff;
+
   /* borders */
   --border-radius: 4px;
 
   /* Desktop font-size */
-  --font-size-xxsmall: 0.8rem;
-  --font-size-small: 1rem;
-  --font-size-p: 1.2rem;
-  --font-h2: 2rem;
+  --xxsmall-font: 0.8rem;
+  --small-font: 1rem;
+  --normal-font: 1.2rem;
+  --big-size-font: 2rem;
+  --xbig-size-font: 3rem;
+  
 
   /* Mobile font-size */
-  --font-size-xxsmall-mobile: 0.8rem;
-  --font-size-small-mobile: 0.9rem;
-  --font-size-p-mobile: 1.2rem;
-  --font-h2-mobile: 2rem;
+  --xxsmall-font-mobile: 0.6rem;
+  --font-size-small-mobile: 0.8rem;
+  --normal-font-mobile: 1rem;
+  --big-size-font-mobile: 1.5rem;
+
 }
 
 :root.dark {

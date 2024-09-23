@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import check from "../../assets/icon/check.svg";
 import "./Hero.css";
 
 export default function Hero() {
@@ -29,19 +30,19 @@ export default function Hero() {
   return (
     <section className="hero-container">
       <div className="hero-content">
+        <h2>Hello I'm </h2>
         <h1>Matheus Ribeiro</h1>
         <div className="animated-text">
-          <span className="text first-text">I'm a </span>
+          <span className="text first-text">a </span>
           <span className="text sec-text" ref={textRef}></span>
         </div>
         <p className="hero-subtitle">
-          Soy un desarrollador apasionado por nuevos retos, siempre buscando
-          aprender y crecer profesionalmente. Me considero polivalente,
-          ambicioso y proactivo.
+          Excited about new challenges, always looking to learn and grow
+          professionally. I see myself as versatile, ambitious, and proactive.
         </p>
         <p>
-          Valoro la colaboración en equipo y me gusta escuchar diferentes
-          perspectivas para encontrar soluciones creativas y efectivas.
+          I appreciate collaboration and enjoy hearing different perspectives to
+          come up with creative and effective solutions.
         </p>
         <div className="hero-buttons">
           <a
@@ -58,6 +59,10 @@ export default function Hero() {
           >
             LinkedIn
           </a>
+        </div>
+        <div className="hero-badge">
+          <h3>Let's work together</h3>
+          <img src={check} alt="" />
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@
 }
 
 .timeline-experience-container h2 {
-  font-size: var(--font-h2);
+  font-size: var(--big-size-font);
   font-weight: 500;
   text-transform: uppercase;
   padding: 0 0 1rem 0;

@@ -15,16 +15,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 2.5rem;
+  gap: 2rem;
   /* border: 1px solid red; */
+}
+
+.hero-content h2 {
+  font-size: var(--xbig-size-font);
+  font-weight: 400;
+  color: var(--color-font-white);
 }
 
 .hero-content h1 {
   font-size: 6rem;
   font-weight: 700;
-  color: var(--color-font-white);
   text-transform: uppercase;
   margin: -60px 0;
+  color: var(--green-color);
 }
 
 .animated-text {
@@ -35,7 +41,8 @@
 
 .animated-text .text {
   position: relative;
-  color: var(--green-color);
+  /* color: var(--green-color); */
+  color: var(--color-font-white);
   font-size: 2rem;
   font-weight: 400;
 }
@@ -68,7 +75,7 @@
 
 .hero-content p {
   width: 70%;
-  font-size: var(--font-size-p);
+  font-size: var(--normal-font);
   font-weight: 400;
 }
 
@@ -81,7 +88,7 @@
 
 .hero-buttons :first-child {
   padding: 6px 16px;
-  font-size: var(--font-size-p);
+  font-size: var(--normal-font);
   font-weight: 600;
   color: var(--color-font-black);
   background-color: var(--white-color);
@@ -96,7 +103,7 @@
 
 .hero-buttons :last-child {
   padding: 6px 16px;
-  font-size: var(--font-size-p);
+  font-size: var(--normal-font);
   font-weight: 500;
   color: var(--color-font-white);
   background-color: var(--color-black-bg);
@@ -121,12 +128,55 @@
   border: 1px solid var(--green-color);
 }
 
+.hero-badge {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 6px 12px;
+  /* border: 2px solid var(--green-color); */
+  border-radius: 12px;
+  animation: vibrate 2s infinite; 
+}
+
+.hero-badge:hover {
+  animation: none;
+  /* cursor: pointer; */
+}
+
+.hero-content h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--green-color);
+   
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+  75% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-content {
-    height: 70%;
+    height: 100%;
     width: 100%;
     align-items: center;
-    gap: 4rem;
+    /* justify-content: center; */
+    gap: 2.4rem;
+    margin-top: -15%;
   }
 
   .hero-content h1 {
@@ -138,8 +188,9 @@
 
   .animated-text {
     width: 90%;
-    padding: 0 10px;
+    padding: 0 8px;
     overflow: hidden;
+    /* border: 1px solid red; */
   }
 
   .animated-text .text {

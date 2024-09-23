@@ -13,22 +13,24 @@ export function TimelineExperience() {
         <Timeline.Item className="timeline-info">
           <Timeline.Point />
           <Timeline.Content className="timeline-content">
-            <Timeline.Time className="timeline-date">Sep 2023 - Sep 2024</Timeline.Time>
+            <Timeline.Time className="timeline-date">
+              Sep 2023 - Sep 2024
+            </Timeline.Time>
             <Timeline.Title className="timeline-title">
               Full Stack Developer
             </Timeline.Title>
             <Timeline.Body className="timeline-body-info">
               <p>
-                - Formé parte de equipos de desarrollo enfocados en la creación
-                de aplicaciones <strong>( sistemas CRM )</strong>.
+                - I was part of development teams focused on creating
+                applications <strong>(CRM systems)</strong>.
               </p>
               <p>
-                - Aplicar metodologías ágiles y prácticas de{" "}
-                <strong>desarrollo colaborativo</strong>.
+                - Applying agile methodologies and{" "}
+                <strong>collaborative development</strong> practices.
               </p>
               <p>
-                - Trabajé en la integración de <strong>bases de datos</strong> y
-                el diseño de interfaces de usuario modernas y eficientes.
+                - I worked on integrating <strong>databases</strong> and
+                designing modern and efficient user interfaces.
               </p>
             </Timeline.Body>
           </Timeline.Content>
@@ -36,36 +38,50 @@ export function TimelineExperience() {
         <Timeline.Item className="timeline-info">
           <Timeline.Point />
           <Timeline.Content className="timeline-content">
-            <Timeline.Time className="timeline-date">Feb 2024 - Feb 2024</Timeline.Time>
+            <Timeline.Time className="timeline-date">
+              Feb 2024 - Feb 2024
+            </Timeline.Time>
             <Timeline.Title className="timeline-title">
-            Desarrollador Frontend
+              Frontend Developer
             </Timeline.Title>
             <Timeline.Body className="timeline-body-info">
-            Página web que está diseñada para presentar los <strong>servicios de la empresa </strong> de forma clara y atractiva, facilitando el <strong>contacto directo</strong> entre los clientes y la empresa mediante <strong>formularios sencillos y accesibles</strong>.
+              A website designed to present the{" "}
+              <strong>company's services</strong> clearly and attractively,
+              facilitating <strong>direct contact</strong> between customers and
+              the company through <strong>simple and accessible forms</strong>.
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>
         <Timeline.Item className="timeline-info">
           <Timeline.Point />
           <Timeline.Content className="timeline-content">
-            <Timeline.Time className="timeline-date">Jan 2024 - Jan 2024</Timeline.Time>
+            <Timeline.Time className="timeline-date">
+              Jan 2024 - Jan 2024
+            </Timeline.Time>
             <Timeline.Title className="timeline-title">
-            Desarrollador Frontend
+              Frontend Developer
             </Timeline.Title>
             <Timeline.Body className="timeline-body-info">
-            Página web que está diseñada para presentar los <strong>servicios de la empresa </strong> de forma clara y atractiva, facilitando el <strong>contacto directo</strong> entre los clientes y la empresa mediante <strong>formularios sencillos y accesibles</strong>.
+              A website designed to clearly and attractively present the{" "}
+              <strong>company's services</strong>, facilitating{" "}
+              <strong>direct contact</strong> between customers and the company
+              through <strong>simple and accessible forms</strong>.
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>
         <Timeline.Item className="timeline-info">
           <Timeline.Point />
           <Timeline.Content className="timeline-content">
-            <Timeline.Time className="timeline-date">Jul 2019 - Feb 2024</Timeline.Time>
+            <Timeline.Time className="timeline-date">
+              Jul 2019 - Feb 2024
+            </Timeline.Time>
             <Timeline.Title className="timeline-title">
-            Asistente de Gerente
+              Assistant Manager
             </Timeline.Title>
             <Timeline.Body className="timeline-body-info">
-            Mi tarea principal consistía en <strong>gestionar y guiar</strong>  al grupo en sus actividades diarias para <strong>alcanzar los objetivos</strong>  de la empresa.
+              My main task was to <strong>manage and guide</strong> the team in
+              their daily activities to{" "}
+              <strong>achieve the company's goals</strong>.
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>

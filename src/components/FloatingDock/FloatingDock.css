@@ -128,18 +128,18 @@
 
 @media screen and (max-width: 768px) {
   .dock {
-    padding: 0 8px;
+    padding: 0 4px;
   }
 
   .dock-navigation {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   .dock-navigation:hover {
-    width: 60px;
-    height: 60px;
-    margin-top: -20px;
+    width: 75px;
+    height: 75px;
+    margin-top: -30px;
     behavior: smooth;
     transition: 0.3s ease;
     filter: brightness(2.5);
@@ -147,16 +147,16 @@
 
   /* Right side */
   .dock-navigation:hover + .dock-navigation {
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     margin-top: -20px;
     behavior: smooth;
     transition: 0.3s ease;
   }
 
   .dock-navigation:hover + .dock-navigation + .dock-navigation {
-    width: 52.5px;
-    height: 52.5px;
+    width: 55px;
+    height: 55px;
     margin-top: -10px;
     behavior: smooth;
     transition: 0.3s ease;
@@ -164,16 +164,16 @@
 
   /* Left side */
   .dock-navigation:has(+ .dock-navigation:hover) {
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     margin-top: -20px;
     behavior: smooth;
     transition: 0.3s ease;
   }
 
   .dock-navigation:has(+ .dock-navigation + .dock-navigation:hover) {
-    width: 52.5px;
-    height: 52.5px;
+    width: 55px;
+    height: 55px;
     margin-top: -10px;
     behavior: smooth;
     transition: 0.3s ease;

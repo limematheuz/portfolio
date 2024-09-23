@@ -11,8 +11,8 @@ import remodeling from "../../assets/img/6.png";
 
 export default function ProjectsBento(){
     return (
-        <section className="bentoProjects-container" >
-            <h2>Proyectos</h2>
+        <section id="bentoProjects" className="bentoProjects-container" >
+            <h2>Projects</h2>
             <div className="projectsBento-container">            
                 <a href="https://pedrosremodelingnc.com/" target="_blank" rel="noopener noreferrer" className="bento-item item1">
                     <img className="small-img bento-img" src={tablet} alt="Imagen 1" />
