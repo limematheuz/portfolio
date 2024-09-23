@@ -85,7 +85,7 @@
   height: 100%;
   border-radius: 8px;
   padding: 6px;
-  background-color: #04040475;
+  background-color: #000000c7;
   border: 2px solid #222222;
 }
 
@@ -100,12 +100,8 @@
   border-radius: 8px;
 }
 
-.dock-navigation .svg-icon:hover {
-  stroke: #ff0000; /* Cambia este color al que desees */
-}
-
 .dock-navigation.controls{
-  filter: brightness(1.8);
+  filter: brightness(2);
 }
 
 .dock-navigation:hover .tooltip,
@@ -121,7 +117,7 @@
   opacity: 0;
   transition: ease-in opacity 100ms;
   display: block;
-  background: rgba(16, 16, 16, 0.58);
+  background: rgba(16, 16, 16, 0.862);
   padding: 8px;
   border-radius: 8px;
   height: 40px;

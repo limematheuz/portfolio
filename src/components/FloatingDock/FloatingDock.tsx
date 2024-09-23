@@ -12,25 +12,25 @@ export default function FloatingDock() {
     <section className="dock-container">
     <nav className="dock">
     <ul>
-      <li className="dock-navigation" >
+      <li className="dock-navigation controls" >
         <a href="#" >
           <img src={house} />
           <span className="tooltip">Home</span>
         </a>
       </li>
-      <li className="dock-navigation" >
+      <li className="dock-navigation controls" >
         <a href="#timeLine-container">
           <img src={exp} />
           <span className="tooltip">Experience</span>
         </a>
       </li>
-      <li className="dock-navigation" >
+      <li className="dock-navigation controls" >
         <a href="#" >
           <img src={layer} />
           <span className="tooltip">Projects</span>
         </a>
       </li>
-      <li className="dock-navigation" >
+      <li className="dock-navigation controls" >
         <a href="" >
           <img src={guitar} />
           <span className="tooltip">About me</span>
