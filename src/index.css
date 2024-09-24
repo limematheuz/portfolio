@@ -41,14 +41,14 @@ html,
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87) !important;
-  background-color: var(--color-black-bg);
+  background-color: var(--dark-bg-color);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
   /* colors */
   --green-color: #00e770;
-  --color-black-bg: #000000;
-  --color-ligth-bg: #9b9a9a;
+  --dark-bg-color: #121212;
+  --light-bg-color: #d8d6d6;
   --dark-white-color: rgba(255, 255, 255, 0.842);
   --white-color: #ffffff;
   --dark-grey-color: #222222;
@@ -70,7 +70,7 @@ html,
 
   /* Mobile font-size */
   --xxsmall-font-mobile: 0.6rem;
-  --font-size-small-mobile: 0.8rem;
+  --font-size-small-mobile: 0.9rem;
   --normal-font-mobile: 1rem;
   --big-size-font-mobile: 1.5rem;
 
