@@ -7,6 +7,7 @@ import { TimelineExperience } from "../../components/TimelineExperience/Timeline
 import "./Home.css";
 import Projects from "../../components/ProjectsBento/ProjectsBento";
 import DevelopmentModal from "../../components/DevelopmentModal/DevelopmentModal";
+import { AsideLinks } from "../../components/AsideLinks/AsideLinks";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <TimelineExperience />
       <Projects />
       <DevelopmentModal />
+      <AsideLinks />
     </section>
   );
 }

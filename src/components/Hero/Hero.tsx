@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import check from "../../assets/icon/check.svg";
 import "./Hero.css";
+import { AsideLinks } from "../AsideLinks/AsideLinks";
 
 export default function Hero() {
   const textRef = useRef<HTMLSpanElement | null>(null);
@@ -37,13 +38,12 @@ export default function Hero() {
           <span className="text sec-text" ref={textRef}></span>
         </div>
         <p className="hero-subtitle">
-          Excited about new challenges, always looking to learn and grow
-          professionally. I see myself as versatile, ambitious, and proactive.
+          who loves learning new things and taking on
+          challenges. I'm excited about new opportunities and always looking to
+          grow both personally and professionally.
         </p>
-        <p>
-          I appreciate collaboration and enjoy hearing different perspectives to
-          come up with creative and effective solutions.
-        </p>
+        {/* <p>
+        </p> */}
         <div className="hero-buttons">
           <a
             href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e15522e2-dece-4f45-80f4-60f54b1d7ee8"

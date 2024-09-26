@@ -128,12 +128,12 @@
 
 @media screen and (max-width: 768px) {
   .dock {
-    padding: 0 4px;
+    padding: 0 2px;
   }
 
   .dock-navigation {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
   }
 
   .dock-navigation:hover {
