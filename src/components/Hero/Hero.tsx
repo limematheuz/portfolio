@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import check from "../../assets/icon/check.svg";
 import "./Hero.css";
-import { AsideLinks } from "../AsideLinks/AsideLinks";
+// import { AsideLinks } from "../AsideLinks/AsideLinks";
 
 export default function Hero() {
   const textRef = useRef<HTMLSpanElement | null>(null);
