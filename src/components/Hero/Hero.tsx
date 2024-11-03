@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import check from "../../assets/icon/check.svg";
 import "./Hero.css";
+import music from "../../assets/bgsvg/pngwing.com.svg";
 // import { AsideLinks } from "../AsideLinks/AsideLinks";
 
 export default function Hero() {
@@ -65,6 +66,7 @@ export default function Hero() {
           <img src={check} alt="" />
         </div>
       </div>
+      <img className="music-bg" src={music} alt="" />
     </section>
   );
 }

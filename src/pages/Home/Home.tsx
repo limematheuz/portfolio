@@ -8,6 +8,7 @@ import "./Home.css";
 import Projects from "../../components/ProjectsBento/ProjectsBento";
 import DevelopmentModal from "../../components/DevelopmentModal/DevelopmentModal";
 import { AsideLinks } from "../../components/AsideLinks/AsideLinks";
+import Footer from "../../components/Footer/Footer";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Projects />
       <DevelopmentModal />
       <AsideLinks />
+      <Footer />
     </section>
   );
 }
