@@ -17,6 +17,7 @@
 
 .asideLinks-container a:hover {
   filter: brightness(2.5);
+  scale: 1.2;
 }
 
 .asidelink-p {
