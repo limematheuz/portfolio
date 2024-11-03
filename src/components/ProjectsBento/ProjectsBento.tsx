@@ -22,7 +22,7 @@ export default function ProjectsBento(){
                     <img className="small-img bento-img" src={movies} alt="Imagen 2" />
                     <span></span>
                 </a >
-                <a href="https://pedrosremodelingnc.com/" target="_blank" rel="noopener noreferrer" className="bento-item item3">
+                <a href="https://matflix-react.vercel.app/" target="_blank" rel="noopener noreferrer" className="bento-item item3">
                     <img className="small-img bento-img" src={rrj} alt="Imagen 3" />
                     <span></span>
                 </a >

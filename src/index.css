@@ -47,7 +47,7 @@ html,
   text-rendering: optimizeLegibility;
 
   /* colors */
-  --green-color: #00e770;
+  --accent-color: #7c59aa;
   --dark-bg-color: #121212;
   --light-bg-color: #d8d6d6;
   --dark-white-color: rgba(255, 255, 255, 0.842);

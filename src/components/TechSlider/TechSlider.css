@@ -68,7 +68,7 @@
 }
 
 .techSlider-container .techItem:hover {
-  filter: brightness(3);
+  filter: brightness(2.5);
 }
 
 @media screen and (max-width: 768px) {
