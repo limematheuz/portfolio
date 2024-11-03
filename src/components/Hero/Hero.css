@@ -139,11 +139,6 @@
   animation: vibrate 2s infinite; 
 }
 
-.hero-badge:hover {
-  animation: none;
-  /* cursor: pointer; */
-}
-
 .hero-content h3 {
   font-size: 1rem;
   font-weight: 500;
