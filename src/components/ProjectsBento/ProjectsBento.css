@@ -54,13 +54,21 @@
   display: block;
   position: absolute;
   place-content: end;
-  top: 20%;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background: linear-gradient(to bottom, #00000000, rgb(0, 0, 0) 90%);
   color: #fff;
   z-index: 0;
+}
+
+.bento-item:hover img{
+  border-radius: 8px;
+  transition: transform 0.6s;
+  transform: scale(1.1);
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .bento-tech-badges {
@@ -113,14 +121,6 @@
   object-fit: cover;
   padding: 0.6rem;
   /* filter: grayscale(100%); */
-}
-
-.bento-img:hover {
-  border-radius: 8px;
-  transition: transform 0.6s;
-  transform: scale(1.1);
-  margin: 0 auto;
-  overflow: hidden;
 }
 
 .small-img {
