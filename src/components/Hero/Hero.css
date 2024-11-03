@@ -31,7 +31,7 @@
   text-transform: uppercase;
   margin: -60px 0;
   /* color: var(--accent-color); */
-  background: -webkit-linear-gradient(#e100ff, #e414ff, #391e74);
+  background: -webkit-linear-gradient(#3c3ff1, #2124d7, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -156,7 +156,7 @@
 }
 
 .hero-content h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--accent-color);
    
