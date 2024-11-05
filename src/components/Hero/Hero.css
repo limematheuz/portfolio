@@ -33,6 +33,7 @@
   /* color: var(--accent-color); */
   background: -webkit-linear-gradient(#3c3ff1, #2124d7, #000000);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -73,15 +74,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-
   background: -webkit-linear-gradient(#3416427a, #513e8c, #8e8e8e);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .music-bg:hover {
-  filter: brightness(1.5);
-  transition: all ease-in-out 0.6s;
+  filter: brightness(1.6);
+  transition: all ease-in-out 0.3s;
 }
 
 @keyframes animate {

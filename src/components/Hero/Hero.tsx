@@ -2,7 +2,6 @@ import { useRef, useEffect } from "react";
 import check from "../../assets/icon/check.svg";
 import "./Hero.css";
 import music from "../../assets/bgsvg/pngwing.com.svg";
-// import { AsideLinks } from "../AsideLinks/AsideLinks";
 
 export default function Hero() {
   const textRef = useRef<HTMLSpanElement | null>(null);
@@ -43,11 +42,9 @@ export default function Hero() {
           challenges. I'm excited about new opportunities and always looking to
           grow both personally and professionally.
         </p>
-        {/* <p>
-        </p> */}
         <div className="hero-buttons">
           <a
-            href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e15522e2-dece-4f45-80f4-60f54b1d7ee8"
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:a615683e-2132-47c7-8bd3-c7462449494c"
             target="_blank"
             rel="noopener noreferrer"
           >
