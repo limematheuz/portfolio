@@ -31,7 +31,7 @@
   text-transform: uppercase;
   margin: -60px 0;
   /* color: var(--accent-color); */
-  background: -webkit-linear-gradient(#3c3ff1, #2124d7, #000000);
+  background: -webkit-linear-gradient(#ffffff, #7c7c7c, #000000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -157,7 +157,7 @@
   align-items: center;
   gap: 1rem;
   padding: 6px 12px;
-  /* border: 2px solid var(--accent-color); */
+  background-color: #0098352b;
   border-radius: 12px;
   animation: vibrate 2s infinite;
 }
@@ -165,7 +165,7 @@
 .hero-content h3 {
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--accent-color);
+  color: #00b740;
 }
 
 @keyframes vibrate {
