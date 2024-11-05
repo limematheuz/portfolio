@@ -218,14 +218,14 @@
     flex-wrap: wrap;
     align-items: end;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 8px;
     gap: 0.5rem;
   }
   
   .bento-tech-badges div {
-    border-radius: 4px;
     padding: 4px 8px;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
+    border-radius: 20px;
   }
 
   .bento-img {
