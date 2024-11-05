@@ -21,6 +21,7 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={pedro} alt="Imagen 1" />
           <span className="bento-about-projects">
+            <p>Pedro's Remodeling</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -45,6 +46,7 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={movies} alt="Imagen 2" />
           <span className="bento-about-projects">
+            <p>MatFlix</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -75,6 +77,7 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={rrj} alt="Imagen 3" />
           <span className="bento-about-projects">
+            <p>MatFlix</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -105,6 +108,7 @@ export default function ProjectsBento() {
         >
           <img className="big-img bento-img" src={rrjTablet} alt="Imagen 4" />
           <span className="bento-about-projects">
+            <p>RRJ Remodeling</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -129,6 +133,7 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={tablet} alt="Imagen 5" />
           <span className="bento-about-projects">
+            <p>Pedro's Remodeling</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -153,6 +158,7 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={phone} alt="Imagen 6" />
           <span className="bento-about-projects">
+            <p>RRJ Remodeling</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -177,6 +183,7 @@ export default function ProjectsBento() {
         >
           <img className="big-img bento-img" src={lighteyes} alt="Imagen 7" />
           <span className="bento-about-projects">
+            <p>Light Eyes</p>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#b735374f", color: "#ff0004" }}>
                 Angular
