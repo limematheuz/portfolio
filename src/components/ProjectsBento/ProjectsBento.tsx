@@ -7,6 +7,7 @@ import tablet from "../../assets/img/11.png";
 import rrjTablet from "../../assets/img/9.png";
 import phone from "../../assets/img/6.png";
 import rrj from "../../assets/img/10.png";
+import arrow from "../../assets/icon/arrow-up-right.svg";
 
 export default function ProjectsBento() {
   return (
@@ -21,7 +22,11 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={pedro} alt="Imagen 1" />
           <span className="bento-about-projects">
-            <p>Pedro's Remodeling</p>
+            <div>
+              <p className="bento-project-name">
+                Pedro's Remodeling <img src={arrow} alt="" />
+              </p>
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -46,7 +51,10 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={movies} alt="Imagen 2" />
           <span className="bento-about-projects">
-            <p>MatFlix</p>
+            <div className="bento-project-name">
+              <p>MatFlix</p>
+              <img src={arrow} alt="" />
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -77,7 +85,10 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={rrj} alt="Imagen 3" />
           <span className="bento-about-projects">
-            <p>MatFlix</p>
+            <div className="bento-project-name">
+              <p>MatFlix</p>
+              <img src={arrow} alt="" />
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -108,7 +119,10 @@ export default function ProjectsBento() {
         >
           <img className="big-img bento-img" src={rrjTablet} alt="Imagen 4" />
           <span className="bento-about-projects">
-            <p>RRJ Remodeling</p>
+            <div className="bento-project-name">
+              <p>RRJ Remodeling</p>
+              <img src={arrow} alt="" />
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -133,7 +147,10 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={tablet} alt="Imagen 5" />
           <span className="bento-about-projects">
-            <p>Pedro's Remodeling</p>
+            <div className="bento-project-name">
+              <p>Pedro's Remodeling</p>
+              <img src={arrow} alt="" />
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -158,7 +175,10 @@ export default function ProjectsBento() {
         >
           <img className="small-img bento-img" src={phone} alt="Imagen 6" />
           <span className="bento-about-projects">
-            <p>RRJ Remodeling</p>
+            <div className="bento-project-name">
+              <p>RRJ Remodeling</p>
+              <img src={arrow} alt="" />
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#58c4dc45", color: "#58c4dc" }}>
                 React
@@ -183,7 +203,10 @@ export default function ProjectsBento() {
         >
           <img className="big-img bento-img" src={lighteyes} alt="Imagen 7" />
           <span className="bento-about-projects">
-            <p>Light Eyes</p>
+            <div className="bento-project-name">
+              <p>Light Eyes</p>
+              <img src={arrow} alt="" />
+            </div>
             <div className="bento-tech-badges">
               <div style={{ backgroundColor: "#b735374f", color: "#ff0004" }}>
                 Angular
