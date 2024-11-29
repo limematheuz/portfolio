@@ -6,7 +6,7 @@ import mail from "../../assets/icon/mail.svg";
 export default function Footer() {
   return (
     <footer className="footer-container">
-      <h3>Ohhh! You've reached the end of our journey 🌌</h3>
+      <h3>Ohhh! You've reached the end of our journey</h3>
       <p>Built with love and a dash of rock by Matheus 🎸🖤</p>
       <div className="footer-social">
         <a
