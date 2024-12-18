@@ -141,7 +141,7 @@
   align-items: center;
   gap: 1rem;
   padding: 6px 12px;
-  background-color: #0098352b;
+  background-color: var(--badge-bg-color);
   border-radius: 12px;
   animation: vibrate 2s infinite;
 }
@@ -149,7 +149,7 @@
 .hero-content h3 {
   font-size: 1.1rem;
   font-weight: 500;
-  color: #00b740;
+  color: var(--badge-font-color);
 }
 
 @keyframes vibrate {

@@ -10,7 +10,7 @@ export function TimelineExperience() {
       <h2>Experience</h2>
       <Timeline className="timeline-experience-content">
         <Timeline.Item className="timeline-info">
-          <Timeline.Point />
+          <div className="timeline-point"  />
           <Timeline.Content className="timeline-content">
             <Timeline.Time className="timeline-date">
               Sep 2023 - Sep 2024
@@ -35,7 +35,7 @@ export function TimelineExperience() {
           </Timeline.Content>
         </Timeline.Item>
         <Timeline.Item className="timeline-info">
-          <Timeline.Point />
+        <div className="timeline-point"  />
           <Timeline.Content className="timeline-content">
             <Timeline.Time className="timeline-date">
               Feb 2024 - Feb 2024
@@ -52,7 +52,7 @@ export function TimelineExperience() {
           </Timeline.Content>
         </Timeline.Item>
         <Timeline.Item className="timeline-info">
-          <Timeline.Point />
+        <div className="timeline-point"  />
           <Timeline.Content className="timeline-content">
             <Timeline.Time className="timeline-date">
               Jan 2024 - Jan 2024
@@ -69,7 +69,7 @@ export function TimelineExperience() {
           </Timeline.Content>
         </Timeline.Item>
         <Timeline.Item className="timeline-info">
-          <Timeline.Point />
+        <div className="timeline-point"  />
           <Timeline.Content className="timeline-content">
             <Timeline.Time className="timeline-date">
               Jul 2019 - Feb 2024
