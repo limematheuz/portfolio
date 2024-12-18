@@ -3,7 +3,6 @@ import "./TimelineExperience.css";
 ("use client");
 
 import { Timeline } from "flowbite-react";
-// import { HiArrowNarrowRight } from "react-icons/hi";
 
 export function TimelineExperience() {
   return (
