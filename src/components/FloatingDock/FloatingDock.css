@@ -58,7 +58,7 @@
   border-radius: 8px;
   padding: 0 12px;
   display: flex;
-  box-shadow: var(--dark-grey-color) 0px 0px 0px 2px inset;
+  box-shadow: var(--border-color) 0px 0px 0px 2px inset;
   backdrop-filter: blur(12px);
   background-color: #2222227b;
 }
@@ -85,8 +85,8 @@
   height: 100%;
   border-radius: 8px;
   padding: 6px;
-  background-color: #000000c7;
-  border: 2px solid #222222;
+  background-color: var(--dark-grey-color);
+  border: 2px solid var(--dark-grey-color);
 }
 
 .dock-navigation a {
@@ -96,7 +96,7 @@
 }
 
 .dock-navigation img:hover {
-  background-color: #04040475;
+  background-color: var(--dark-grey-color);
   border-radius: 8px;
 }
 
@@ -117,7 +117,8 @@
   opacity: 0;
   transition: ease-in opacity 100ms;
   display: block;
-  background: rgba(16, 16, 16, 0.862);
+  background: var(--dark-grey-color);
+  color: white;
   padding: 8px;
   border-radius: 8px;
   height: 40px;

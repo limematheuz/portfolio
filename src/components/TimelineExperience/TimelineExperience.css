@@ -42,7 +42,7 @@
 }
 
 .timeline-content:hover {
-  background-color: #22222222;
+  background-color: var(--border-color);
   padding: 1rem;
 }
 
@@ -61,7 +61,7 @@
   border-radius: 50%;
   position: absolute;
   left: -8px;
-  border: 2px solid var(--color-black-bg);
+  border: 2px solid var(--color-bg);
 }
 
 .timeline-title {
