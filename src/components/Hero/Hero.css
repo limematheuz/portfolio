@@ -199,12 +199,14 @@
     align-items: center;
     /* justify-content: center; */
     gap: 2.4rem;
-    margin-top: -25%;
+    margin-top: 0%;
   }
 
   .hero-content h2 {
-    font-size: 2rem;
+    font-size: var(--big-size-font-mobile);
     font-weight: 400;
+  margin-bottom: -20px;
+
   }
 
   .hero-content h1 {
@@ -215,8 +217,7 @@
   }
 
   .animated-text {
-    width: 90%;
-    padding: 0 8px;
+    width: 100%;
     overflow: hidden;
     /* border: 1px solid red; */
   }
@@ -232,9 +233,11 @@
   }
 
   .hero-content p {
-    width: 80%;
+    width: 100%;
     font-size: 1rem;
     text-align: center;
+    /* border: 1px solid red; */
+
   }
 
   .hero-buttons {

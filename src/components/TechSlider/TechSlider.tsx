@@ -13,7 +13,6 @@ import node from "../../assets/techIcons/node.svg";
 function TecnologiesSlider() {
   return (
       <div className="techSlider-container">
-        {/* <h2 className="techSlider-title">Technologies</h2> */}
         <img src={html} alt="" className="techItem techItem1" />
         <img src={css} alt="" className="techItem techItem2" />
         <img src={js} alt="" className="techItem techItem3" />

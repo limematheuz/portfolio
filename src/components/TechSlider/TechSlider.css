@@ -1,6 +1,9 @@
 .techSlider-container {
   width: 100%;
-  max-width: 1536px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1536px; */
   margin-inline: auto;
   position: relative;
   height: 60px;
@@ -74,6 +77,9 @@
 @media screen and (max-width: 768px) {
   .techSlider-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     mask-image: linear-gradient(
       to right,
@@ -82,9 +88,18 @@
       rgba(0, 0, 0, 1) 85%,
       rgba(0, 0, 0, 0)
     );
+    /* border: 1px solid red; */
   }
 
   .techItem {
-    padding: 2px 0;
+    
+    height: 100%;
+    position: absolute;
+    left: max(calc(80px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* border: 1px solid red; */
   }
 }
