@@ -31,7 +31,7 @@
   font-weight: 700;
   text-transform: uppercase;
   /* color: var(--accent-color); */
-  background: -webkit-linear-gradient(#ffffff, #696969, #000000);
+  background: var(--title-color);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -130,9 +130,9 @@
 
 .hero-buttons :last-child:hover {
   /* transform: scale(1.03); */
-  box-shadow: inset 200px 0 0 0 var(--accent-color);
-  color: #000000;
-  border: 1px solid var(--accent-color);
+  box-shadow: inset 200px 0 0 0 var(--color-font);
+  color: var(--color-bg);
+  border: 1px solid var(--color-bg);
 }
 
 .hero-badge {

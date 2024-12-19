@@ -42,14 +42,18 @@ html,
 }
 
 :root {
-  /* font-family: 'Fira Code', sans-serif; */
+  font-family: 'Fira Code', sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  /* font-family: 'Courier New', Courier, monospace; */
+
   /* font-family: "Source Code Pro", sans-serif; */
   /* font-family: "M PLUS 1 Code", sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 
-  color-scheme: color-scheme;
+
+  color-scheme: light dark;
   line-height: 1.5;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
@@ -78,6 +82,7 @@ html,
   --border-color: #303030;
   --badge-font-color: #00b740;
   --badge-bg-color: #0098352b;
+  --title-color: -webkit-linear-gradient(#d7d7d7, #696969, #000000);
 }
 
 :root.light {
@@ -86,8 +91,9 @@ html,
   --color-accent: #ffffff;
   --dark-grey-color: #222222;
   --border-color: #b5b5b5;
-  --badge-font-color: #007629;
-  --badge-bg-color: #0098352b;
+  --badge-font-color: #222222;
+  --badge-bg-color: #b5b5b5;
+  --title-color: -webkit-linear-gradient( #000000, #696969, #d7d7d7);
 }
 
 body {
