@@ -55,7 +55,7 @@
 }
 
 .timeline-point {
-  background-color: var(--color-font) !important;
+  background-color: var(--border-color) !important;
   width: 14px;
   height: 14px;
   border-radius: 50%;
