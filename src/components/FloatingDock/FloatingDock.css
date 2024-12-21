@@ -85,9 +85,10 @@
   height: 100%;
   border-radius: 8px;
   padding: 6px;
-  background-color: var(--dark-grey-color);
+  /* background-color: var(--dark-grey-color); */
   border: 2px solid var(--dark-grey-color);
 }
+
 
 .dock-navigation a {
   width: 80%;
@@ -96,12 +97,17 @@
 }
 
 .dock-navigation img:hover {
-  background-color: var(--dark-grey-color);
+  /* background-color: var(--dark-grey-color); */
   border-radius: 8px;
 }
 
 .dock-navigation.controls{
   filter: brightness(2);
+  
+}
+
+.dark-mode-dock{
+  background-color: var(--button-dark-mode);
 }
 
 .dock-navigation:hover .tooltip,
