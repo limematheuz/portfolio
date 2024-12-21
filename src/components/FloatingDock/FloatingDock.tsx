@@ -54,9 +54,10 @@ export default function FloatingDock() {
               <span className="tooltip">Sound</span>
             </a>
           </li>
+          {/* <hr /> */}
           <li className="dock-navigation controls">
             <a onClick={toggleTheme} >
-              <img src={theme === "dark" ? moon : sun} className="dark-mode-dock" />
+              <img src={theme === "dark" ? sun : moon} className="dark-mode-dock" />
               <span className="tooltip">Lights</span>
             </a>
           </li>

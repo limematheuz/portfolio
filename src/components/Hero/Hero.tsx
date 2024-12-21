@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import check from "../../assets/icon/check.svg";
+// import check from "../../assets/icon/check.svg";
 import "./Hero.css";
 // import music from "../../assets/bgsvg/pngwing.com.svg";
 
@@ -60,7 +60,7 @@ export default function Hero() {
         </div>
         <div className="hero-badge">
           <h3>Let's work together</h3>
-          <img src={check} alt="" />
+          {/* <img src={check} alt="" /> */}
         </div>
       </div>
     </section>

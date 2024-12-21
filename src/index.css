@@ -80,10 +80,10 @@ html,
   --color-accent: #000000;
   --dark-grey-color: #222222;
   --border-color: #303030;
-  --badge-font-color: #00b740;
-  --badge-bg-color: #0098352b;
+  --badge-font-color: #ffd500;
+  --badge-bg-color: #ffd5001d;
   --title-color: -webkit-linear-gradient(#d7d7d7, #696969, #000000);
-  --button-dark-mode: #ff9500;
+  --button-dark-mode: #ff6f00;
 }
 
 :root.light {
@@ -93,9 +93,9 @@ html,
   --dark-grey-color: #222222;
   --border-color: #b5b5b5;
   --badge-font-color: #222222;
-  --badge-bg-color: #b5b5b5;
+  --badge-bg-color: #ffc800a1;
   --title-color: -webkit-linear-gradient( #000000, #696969, #d7d7d7);
-  --button-dark-mode: #222222;
+  --button-dark-mode: #111111;
 }
 
 body {
