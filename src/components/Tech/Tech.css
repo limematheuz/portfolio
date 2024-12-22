@@ -1,12 +1,7 @@
-.techSlider-container {
+.tech-container {
+  height: 50px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* max-width: 1536px; */
-  /* margin-inline: auto; */
   position: relative;
-  height: 60px;
   overflow: hidden;
   mask-image: linear-gradient(
     to right,
@@ -17,21 +12,32 @@
   );
 }
 
-@keyframes scrollLeft {
+@keyframes scrolLeft {
   to {
     left: -100px;
   }
 }
 
 .techItem {
-  padding: 6px 12px;
   height: 100%;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  border-radius: 12px;
+  border: 2px solid var(--color-bg);
+  background-color: var(--color-font);
+  color: var(--color-bg);
   left: max(calc(100px * 8), 100%);
-  animation-name: scrollLeft;
+  animation-name: scrolLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.tech-container p{
+    font-weight: 600;
 }
 
 .techItem1 {
@@ -66,40 +72,13 @@
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
 
-.techSlider-container:hover .techItem {
+.tech-container:hover .techItem {
   animation-play-state: paused !important;
 }
 
-.techSlider-container .techItem:hover {
-  filter: brightness(2.5);
-}
-
-@media screen and (max-width: 768px) {
-  .techSlider-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    mask-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1) 15%,
-      rgba(0, 0, 0, 1) 85%,
-      rgba(0, 0, 0, 0)
-    );
-    /* border: 1px solid red; */
+.tech-container .techItem:hover {
+    background-color: var(--color-yellow);
+    color: black;
   }
 
-  .techItem {
-    
-    height: 100%;
-    position: absolute;
-    left: max(calc(80px * 8), 100%);
-    animation-name: scrollLeft;
-    animation-duration: 30s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    /* border: 1px solid red; */
-  }
-}
+  

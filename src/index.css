@@ -76,7 +76,7 @@ html,
 
 :root.dark {
   --color-bg: #000000;
-  --color-font: #ffffff;
+  --color-font: #ededed;
   --color-accent: #000000;
   --dark-grey-color: #222222;
   --border-color: #303030;
@@ -84,6 +84,7 @@ html,
   --badge-bg-color: #ffd5001d;
   --title-color: -webkit-linear-gradient(#d7d7d7, #696969, #000000);
   --button-dark-mode: #ff6f00;
+  --color-yellow: #ffd500;
 }
 
 :root.light {
@@ -96,6 +97,8 @@ html,
   --badge-bg-color: #ffc800a1;
   --title-color: -webkit-linear-gradient( #000000, #696969, #d7d7d7);
   --button-dark-mode: #111111;
+  --color-yellow: #ffc800a1;
+
 }
 
 body {
