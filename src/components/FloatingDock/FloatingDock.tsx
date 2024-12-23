@@ -23,7 +23,7 @@ export default function FloatingDock() {
     <section className="dock-container">
       <nav className="dock">
         <ul>
-          <li className="dock-navigation controls">
+          <li className="dock-navigation controls"> 
             <a href="#">
               <img src={house} />
               <span className="tooltip">Home</span>

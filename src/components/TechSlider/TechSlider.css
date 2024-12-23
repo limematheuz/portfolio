@@ -29,41 +29,41 @@
   position: absolute;
   left: max(calc(100px * 8), 100%);
   animation-name: scrollLeft;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 .techItem1 {
-  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  animation-delay: calc(50s / 8 * (8 - 1) * -1);
 }
 
 .techItem2 {
-  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  animation-delay: calc(50s / 8 * (8 - 2) * -1);
 }
 
 .techItem3 {
-  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  animation-delay: calc(50s / 8 * (8 - 3) * -1);
 }
 
 .techItem4 {
-  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  animation-delay: calc(50s / 8 * (8 - 4) * -1);
 }
 
 .techItem5 {
-  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  animation-delay: calc(50s / 8 * (8 - 5) * -1);
 }
 
 .techItem6 {
-  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  animation-delay: calc(50s / 8 * (8 - 6) * -1);
 }
 
 .techItem7 {
-  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  animation-delay: calc(50s / 8 * (8 - 7) * -1);
 }
 
 .techItem8 {
-  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  animation-delay: calc(50s / 8 * (8 - 8) * -1);
 }
 
 .techSlider-container:hover .techItem {
