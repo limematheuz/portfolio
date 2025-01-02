@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import Router from "./Router.tsx";
-import { ThemeProvider } from "./Context/ThemeContext.tsx";
+import { ThemeProvider } from "./context/ThemeContext.tsx";
 
 export default function App() {
   return (
