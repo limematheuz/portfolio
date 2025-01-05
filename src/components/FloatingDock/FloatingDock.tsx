@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../context/ThemeContext";
+import { ThemeContext } from "../../context/ThemeContext.tsx";
 import "./FloatingDock.css";
 
 import house from "../../assets/icon/house.svg";
