@@ -59,7 +59,7 @@ export default function Hero() {
           </a>
         </div>
         <div className="hero-badge">
-          <h3>Let's work together</h3>
+          <h3>Shut up and let's work</h3>
           {/* <img src={check} alt="" /> */}
         </div>
       </div>

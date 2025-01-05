@@ -3,22 +3,22 @@ import { useEffect } from "react";
 import { supabase } from "./supabase/client";
 
 import Home from "./pages/Home/Home";
-import Login from "../src/components/Auth/Login/Login";
+import Login from "./pages/Login/page";
 import NotFound from "./pages/NotFound/NotFound";
 
 export default function Router() {
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   supabase.auth.onAuthStateChange((event, session) => {
-  //     if (!session) {
-  //       navigate("/login");
-  //     } else {
-  //       navigate("/");
-  //     }
-  //     console.log(event, session);
-  //   });
-  // }, []);
+  useEffect(() => {
+    supabase.auth.onAuthStateChange((event, session) => {
+      if (!session) {
+        navigate("/");
+      } else {
+        navigate("/");
+      }
+      console.log(event, session);
+    });
+  }, []);
 
   return (
     <Routes>

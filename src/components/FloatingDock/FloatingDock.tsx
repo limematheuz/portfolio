@@ -1,6 +1,4 @@
-import { useContext, useState } from "react";
-// import { Link } from "react-router-dom";
-import Modal from "../../components/Auth/Modal";
+import { useContext } from "react";
 import { ThemeContext } from "../../context/ThemeContext";
 import "./FloatingDock.css";
 
@@ -11,15 +9,9 @@ import user from "../../assets/icon/user.svg";
 import moon from "../../assets/icon/sun-moon.svg";
 import sun from "../../assets/icon/sun.svg";
 import layer from "../../assets/icon/layers.svg";
-// import { Modal } from "flowbite-react";
 
 export default function FloatingDock() {
   const themeContext = useContext(ThemeContext);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
 
   if (!themeContext) {
     throw new Error("FloatingDock must be used within a ThemeProvider");
@@ -28,7 +20,6 @@ export default function FloatingDock() {
   const { theme, toggleTheme } = themeContext;
 
   return (
-    <>
     <section className="dock-container">
       <nav className="dock">
         <ul>
@@ -57,23 +48,20 @@ export default function FloatingDock() {
             </a>
           </li>
           <li className="dock-navigation controls">
-            <a onClick={openModal}>
+            {/* <a onClick={() => navigate("/login")}> */}
+              <a href="">
               <img src={user} />
               <span className="tooltip">Profile</span>
             </a>
           </li>
           <li className="dock-navigation controls">
-            <a onClick={toggleTheme}>
+            <button onClick={toggleTheme}>
               <img src={theme === "dark" ? sun : moon} className="dark-mode-dock" />
               <span className="tooltip">Lights</span>
-            </a>
+            </button>
           </li>
         </ul>
       </nav>
     </section>
-    <Modal isOpen={isModalOpen} onClose={closeModal} isLoggedIn={isLoggedIn} />
-
-    </>
-
   );
 }
