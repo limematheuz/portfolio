@@ -73,7 +73,8 @@ html,
   --normal-font: 1.2rem;
   --big-size-font: 2rem;
   --xbig-size-font: 3rem;
-
+  --xbig-size-font: 2.6rem;
+  
   /* Mobile font-size */
   --xxsmall-font-mobile: 0.6rem;
   --font-size-small-mobile: 0.9rem;
