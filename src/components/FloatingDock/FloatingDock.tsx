@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../Context/ThemeContext";
+import { ThemeContext } from "../../context/ThemeContext";
 import "./FloatingDock.css";
 
 import house from "../../assets/icon/house.svg";
 import exp from "../../assets/icon/folder-git-2.svg";
 import guitar from "../../assets/icon/guitar.svg";
-import volume from "../../assets/icon/volume-2.svg";
+import user from "../../assets/icon/user.svg";
 import moon from "../../assets/icon/sun-moon.svg";
 import sun from "../../assets/icon/sun.svg";
 import layer from "../../assets/icon/layers.svg";
@@ -48,16 +48,17 @@ export default function FloatingDock() {
             </a>
           </li>
           <li className="dock-navigation controls">
-            <a href="#">
-              <img src={volume} />
-              <span className="tooltip">Sound</span>
+            {/* <a onClick={() => navigate("/login")}> */}
+              <a href="">
+              <img src={user} />
+              <span className="tooltip">Profile</span>
             </a>
           </li>
           <li className="dock-navigation controls">
-            <a onClick={toggleTheme}>
+            <button onClick={toggleTheme}>
               <img src={theme === "dark" ? sun : moon} className="dark-mode-dock" />
               <span className="tooltip">Lights</span>
-            </a>
+            </button>
           </li>
         </ul>
       </nav>
