@@ -86,12 +86,12 @@ html,
   --color-bg: #0f0d0e;
   --color-font: #f9f4da;
   --color-accent: #fcba28;
-  --dark-grey-color: #121112;
+  --dark-grey-color: #282828;
   --border-color: #303030;
   --badge-font-color: #fcba28;
   --badge-bg-color: #ffd5001d;
   --title-color: -webkit-linear-gradient(#f9f4da, #f9f4da, #f9f4da);
-  --button-dark-mode: #ff6f00;
+  --button-dark-mode: #fcba28;
   --color-yellow: #fcba28;
 }
 
@@ -99,12 +99,12 @@ html,
   --color-bg: #e4e6e7;
   --color-font: #222222;
   --color-accent: #ffc800a1;
-  --dark-grey-color: #222222;
+  --dark-grey-color: #3e3e3e;
   --border-color: #b5b5b5;
   --badge-font-color: #222222;
   --badge-bg-color: #ffc800a1;
   --title-color: -webkit-linear-gradient(#222222, #222222, #222222);
-  --button-dark-mode: #111111;
+  --button-dark-mode: #222222;
   --color-yellow: #ffc800a1;
 }
 

@@ -8,7 +8,7 @@
   margin-top: -30px;
   behavior: smooth;
   transition: 0.3s ease;
-  filter: brightness(2.5);
+  /* filter: brightness(2.5); */
 }
 
 /* Right side */
@@ -101,10 +101,10 @@
   border-radius: 8px;
 }
 
-.dock-navigation.controls{
-  filter: brightness(2);
-  
-}
+/* .dock-navigation.controls{
+  background-color: var(--color-accent);
+
+} */
 
 .dark-mode-dock{
   background-color: var(--button-dark-mode) !important;
@@ -124,7 +124,7 @@
   transition: ease-in opacity 100ms;
   display: block;
   background: var(--dark-grey-color);
-  color: white;
+  color: #f9f4da;
   padding: 8px;
   border-radius: 8px;
   height: 40px;
