@@ -9,7 +9,7 @@ import figma from "../../assets/toolsIcons/fig.svg";
 import sqlserver from "../../assets/toolsIcons/sqlserver.svg";
 import node from "../../assets/toolsIcons/node.svg";
 
-export const ToolSlider = () => {
+export default function ToolSlider() {
   return (
     <div className="toolSlider-container">
       <img src={azure} alt="" className="toolItem toolItem1" />
@@ -22,4 +22,4 @@ export const ToolSlider = () => {
       <img src={node} alt="" className="toolItem toolItem8" />
     </div>
   );
-};
+}

@@ -4,7 +4,7 @@ import "./TimelineExperience.css";
 
 import { Timeline } from "flowbite-react";
 
-export function TimelineExperience() {
+export default function TimelineExperience() {
   return (
     <section id="timeLine-container" className="timeline-experience-container">
       <h2>Experience</h2>
