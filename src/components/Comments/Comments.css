@@ -1,31 +1,101 @@
-.comments-section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 4rem;
-    border: 1px solid #ccc;
+.comments-section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15%;
+  /* gap: 2rem; */
+  /* border: 1px solid #ccc; */
+  overflow: scroll;
+  overflow: hidden;
 }
 
-.comments-container-slider{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 20px;
-    border: 1px solid #ff0000;
-
+.comments-section h2 {
+  font-size: var(--big-size-font);
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-.comment-card{
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 1rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.comments-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* border: 1px solid #ccc; */
+}
+
+.comments-container-slider {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: scroll;
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+  /* border: 1px solid #ff0000; */
+}
+
+.comment-card {
+  width: 100%;
+  min-width: 290px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* margin-top: 1rem; */
+  padding: 1rem;
+  gap: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comment-user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.comment-user span {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.comment-user p {
+  font-size: var(--small-font);
+  font-weight: 700;
+}
+
+.comments-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  /* border: 1px solid #ccc; */
+}
+
+.comments-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-accent);
+  color: var(--color-font);
+  font-size: var(--small-font);
+  font-weight: 700;
+  cursor: pointer;
 }
