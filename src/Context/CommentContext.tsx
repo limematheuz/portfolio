@@ -3,14 +3,15 @@ import { supabase } from "../supabase/client";
 
 interface Comment {
   user_name: string;
-  title: string;
   description: string;
 }
 
 interface CommentContextType {
   comments: Comment[];
+  data: Comment[];
   setComments: React.Dispatch<React.SetStateAction<Comment[]>>;
   getComments: () => Promise<void>;
+  addComment: (inputName: string, comment: string) => void;
 }
 
 export const CommentContext = createContext<CommentContextType | null>(null);
@@ -32,14 +33,30 @@ export const CommentProvider: React.FC<CommentProviderProps> = ({
   const [comments, setComments] = useState<Comment[]>([]);
 
   const getComments = async () => {
-    const {error, data} = await supabase.from("comments").select();
-    if(error) throw error;;
+    const { error, data } = await supabase.from("comments").select();
+    if (error) throw error;
 
     setComments(data);
   };
 
+  const addComment = async (inputName: string, comment: string) => {
+    try {
+      const { data, error } = await supabase.from("comments").insert({
+        user_name: inputName,
+        description: comment,
+      }).select();
+
+      if (error) throw error;
+      setComments((prevComments) => [...(data || []), ...prevComments]);
+    } catch (error) {
+      // console.error("Error adding comment:", error);
+    }
+  };
+
   return (
-    <CommentContext.Provider value={{ comments, setComments, getComments  }}>
+    <CommentContext.Provider
+      value={{ comments, setComments, getComments, addComment, data: comments }}
+    >
       {children}
     </CommentContext.Provider>
   );

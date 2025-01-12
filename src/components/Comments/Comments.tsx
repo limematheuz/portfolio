@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useComment } from "../../Context/CommentContext";
+import CommentForm from "./CommentForm/CommentForm";
 import "./Comments.css";
 
 export default function Comments() {
@@ -42,6 +43,7 @@ const sliderRef = useRef<HTMLDivElement>(null);
           <button onClick={handleRightClick}>right</button>
         </div>
       </div>
+      <CommentForm />
     </section>
   );
 }
