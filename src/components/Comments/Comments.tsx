@@ -39,8 +39,8 @@ const sliderRef = useRef<HTMLDivElement>(null);
           ))}
         </div>
         <div className="comments-buttons">
-          <button onClick={handleLeftClick}>left</button>
-          <button onClick={handleRightClick}>right</button>
+          <button onClick={handleLeftClick}>Prev</button>
+          <button onClick={handleRightClick}>Next</button>
         </div>
       </div>
       <CommentForm />

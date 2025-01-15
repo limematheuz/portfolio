@@ -6,12 +6,15 @@ export default function CommentForm() {
   const [inputName, setInputName] = useState("");
   const [comment, setComment] = useState("");
   const { addComment } = useComment();
+  // const [loading  , setLoading] = useState(false);
 
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     addComment(inputName, comment);
   };
+
+
 
   return (
     <form className="comment-form" onSubmit={onSubmit}>
@@ -27,7 +30,9 @@ export default function CommentForm() {
           onChange={(e) => setComment(e.target.value)}
         ></textarea>
         <button type="submit">Submit</button>
+        {/* {loading && <p>Loading...</p>} */}
       </div>
+
     </form>
   );
 }

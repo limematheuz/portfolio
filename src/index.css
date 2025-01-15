@@ -89,6 +89,7 @@ html,
   --title-color: -webkit-linear-gradient(#f9f4da, #f9f4da, #f9f4da);
   --button-dark-mode: #fcba28;
   --color-yellow: #fcba28;
+  --button-hover: #f9f4da;
 }
 
 :root.light {
@@ -102,6 +103,7 @@ html,
   --title-color: -webkit-linear-gradient(#222222, #222222, #222222);
   --button-dark-mode: #222222;
   --color-yellow: #ffc800a1;
+  --button-hover: #222222;
 }
 
 body {
