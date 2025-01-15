@@ -1,25 +1,46 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useComment } from "../../Context/CommentContext";
 import CommentForm from "./CommentForm/CommentForm";
 import "./Comments.css";
 
 export default function Comments() {
   const { comments, getComments } = useComment();
-const sliderRef = useRef<HTMLDivElement>(null);
+  const sliderRef = useRef<HTMLDivElement>(null);
+  const [editingCommentId, setEditingCommentId] = useState<number | null>(null);
+  const [isAddingComment, setIsAddingComment] = useState<boolean>(false);
 
   useEffect(() => {
     getComments();
   }, []);
 
   const handleLeftClick = () => {
-    if(sliderRef.current){
+    if (sliderRef.current) {
       sliderRef.current.scrollLeft -= 490;
     }
   };
 
   const handleRightClick = () => {
-    if(sliderRef.current){
+    if (sliderRef.current) {
       sliderRef.current.scrollLeft += 490;
+    }
+  };
+
+  const handleAddClick = () => {
+    setIsAddingComment(true);
+    setEditingCommentId(null);
+  };
+
+  const closeForm = () => {
+    setIsAddingComment(false);
+    setEditingCommentId(null);
+  };
+
+  const handleSelectChange = (value: string, commentId: number) => {
+    if (value === "edit") {
+      setEditingCommentId(commentId);
+      setIsAddingComment(false);
+    } else if (value === "delete") {
+      console.log(`Eliminar comentario con ID ${commentId}`);
     }
   };
 
@@ -35,6 +56,18 @@ const sliderRef = useRef<HTMLDivElement>(null);
                 <p>@{comment.user_name}</p>
               </div>
               <p>" {comment.description} "</p>
+
+              <select
+                className="comments-options"
+                onChange={(e) => handleSelectChange(e.target.value, id)}
+                defaultValue=""
+              >
+                <option value="" disabled>
+                  ...
+                </option>
+                <option value="delete">Delete</option>
+                <option value="edit">Edit</option>
+              </select>
             </div>
           ))}
         </div>
@@ -42,8 +75,13 @@ const sliderRef = useRef<HTMLDivElement>(null);
           <button onClick={handleLeftClick}>Prev</button>
           <button onClick={handleRightClick}>Next</button>
         </div>
+        <button className="addComment-btn" onClick={handleAddClick}>
+          BOOST MY EGO 🤞
+        </button>
       </div>
-      <CommentForm />
+      {(isAddingComment || editingCommentId !== null) && (
+        <CommentForm onClose={closeForm} />
+      )}
     </section>
   );
 }

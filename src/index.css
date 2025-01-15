@@ -7,6 +7,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
 body,
 html,
 * {
@@ -39,26 +40,32 @@ html,
   background-color: var(--color-bg);
 }
 
-/* p::selection {
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+a::selection,
+span::selection,
+div::selection,
+li::selection,
+ul::selection,
+ol::selection,
+input::selection,
+textarea::selection,
+button::selection,
+strong::selection {
   background-color: var(--color-accent);
   color: var(--color-font);
-} */
+}
 
 :root {
   /* font-family: "Fira Code", sans-serif; */
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-
-  /* before icon colors */
-  /* #555555 */
-  /* --badge-bg-color: #ffc800a1; */
-
-  /* after icon colors */
-  /* #b3af9d */
-  /* #f9f4da */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   color-scheme: light dark;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
 
   /* borders */
   --border-radius: 4px;
